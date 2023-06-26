@@ -1,15 +1,5 @@
 import streamlit as st
-import os
-import pickle
-import numpy as np
-import cv2
-import face_recognition
-import cvzone
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import db
-from firebase_admin import storage
-from datetime import datetime
+
 
 
 st.image("iti.jpg")
@@ -37,6 +27,17 @@ st.balloons()
 st.progress(10)
 # with st.spinner('Wait for it...'):
 #     time.sleep(10)
+import os
+import pickle
+import numpy as np
+#import cv2
+import face_recognition
+import cvzone
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import db
+from firebase_admin import storage
+from datetime import datetime
 if st.button("Get your Attandance"):
 
 
