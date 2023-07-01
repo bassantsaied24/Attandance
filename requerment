@@ -1,3 +1,4 @@
+opencv-python==4.8.0.74
 CacheControl==0.13.0
 GitPython==3.1.31
 Jinja2==3.1.2
