@@ -33,7 +33,7 @@ import pickle
 import numpy as np
 
 if st.button("Get your Attandance"):
-  import main 
+  from main import imgBackground
 
 
 
